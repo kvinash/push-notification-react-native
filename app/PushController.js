@@ -6,7 +6,8 @@ export default class PushController extends Component{
         PushNotification.configure({
             onNotification: function(notification) {
                 console.log('Notification:', notification);
-            }
+            },
+            senderID: "281113929672"
         })
     }
     render(){
